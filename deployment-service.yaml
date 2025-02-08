@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: educational-app
-          image: devops830/edu-app:latest # Image that will be used to containers in the cluster
+          image: devops830/educational-app:latest # Image that will be used to containers in the cluster
           imagePullPolicy: Always
           ports:
             - containerPort: 8080 # The port that the container is running on in the cluster
